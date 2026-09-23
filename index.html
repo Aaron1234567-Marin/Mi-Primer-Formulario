@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Proyecto</title>
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Bienvenido a mi sitio web</h1>
+    <p>Este es mi primer proyecto construido con HTML y CSS desde cero.</p>
+
+    <!-- Formulario de Registro con su ID -->
+    <div class="contenedor-formulario">
+        <h2>Crear Cuenta</h2>
+        <form id="formulario-registro">
+            <div class="grupo-campo">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" placeholder="Mínimo 6 caracteres" required>
+            </div>
+
+            <button type="submit" class="boton-registro">Registrarse</button>
+        </form>
+
+        <!-- Aquí se mostrará el mensaje de éxito (al principio estará oculto) -->
+        <div id="mensaje-exito" class="mensaje-oculto"></div>
+    </div>
+
+    <!-- Conectamos el archivo de JavaScript justo antes de cerrar el body -->
+    <script src="script.js"></script>
+</body>
+</html>

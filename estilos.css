@@ -1,0 +1,96 @@
+/* Estilos generales para el fondo y la letra */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #2c3e50;
+    font-size: 36px;
+}
+
+/* Estilo para el botón */
+.boton-accion {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Efecto cuando pasas el mouse sobre el botón */
+.boton-accion:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el formulario de registro */
+.contenedor-formulario {
+    background-color: white;
+    max-width: 400px;
+    margin: 30px auto; /* Centra el formulario en la pantalla */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+    text-align: left; /* Alinea los textos a la izquierda */
+}
+
+.contenedor-formulario h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grupo-campo {
+    margin-bottom: 15px; /* Separa cada campo del siguiente */
+}
+
+.grupo-campo label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+    font-weight: bold;
+}
+
+.grupo-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que el campo se salga del contenedor */
+}
+
+/* Estilo para el botón de registro */
+.boton-registro {
+    background-color: #2ecc71; /* Color verde */
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton-registro:hover {
+    background-color: #27ae60; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilo para el mensaje de éxito de JavaScript */
+#mensaje-exito {
+    display: none; /* Inicia oculto */
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda; /* Fondo verde claro */
+    color: #155724; /* Texto verde oscuro */
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
